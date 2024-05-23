@@ -1,5 +1,6 @@
 #!/bin/bash
 #creating user account using bash script
+cat bash.sh
 echo "enter the name of the newuser's name"
 read name
 sudo adduser $name
